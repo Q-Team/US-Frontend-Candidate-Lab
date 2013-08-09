@@ -248,7 +248,7 @@ img {
     background-color: #FFFFFF;
     margin: 0 auto;
     padding: 10px 10px 20px;
-    position: absolute;
+    position: fixed;
     text-align: center;
     width: 370px;
     z-index: 6;
