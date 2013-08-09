@@ -197,8 +197,6 @@ textarea {
 body { 
     background: url(../img/woodgrain.jpg) repeat; 
     font-family: "Helvetica", "Arial", sans-serif;
-    height: 600px; 
-    width: 888px; 
 }
 
 img { 
@@ -219,20 +217,50 @@ img {
     top: 9px;
 }
 
+#warhol {
+    bottom: -213px;
+    left: 565px;
+}
+
+#shoes {
+    bottom: -180px;
+    left: 150px;
+}
+
 #invitation {
     background-color: #fff;
+	background-image: url("../img/bg_invitation.jpg");
+    background-size: cover;
     bottom: 0;
     left: 0;
     padding: 27px 129px 29px 29px;
     position: absolute;
     width: 579px;
     z-index: 3;
+	-moz-box-shadow:    5px 10px 30px 0px #000000;
+	-webkit-box-shadow: 5px 10px 30px 0px #000000;
+	box-shadow:         5px 10px 30px 0px #000000;
+}
+#rsvp {
+	background-color: #fff;
+	background-image: url("../img/bg_invitation.jpg");
+    background-size: cover;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 10px 10px 20px;
+    position: absolute;
+    text-align: center;
+    width: 370px;
+    z-index: 6;
+	-moz-box-shadow:    5px 10px 30px 0px #000000;
+	-webkit-box-shadow: 5px 10px 30px 0px #000000;
+	box-shadow:         5px 10px 30px 0px #000000;
 }
 #invitation h1 {
     font-size: 30px;
     margin-bottom: 15px;
 }
-#invitation a {
+#invitation a, #rsvp a  {
     background-color: #393939;
     color: #fff;
     border-radius: 3px;
@@ -242,7 +270,7 @@ img {
     text-align: center;
     text-decoration: none;
 }
-#invitation a:hover {
+#invitation a:hover, #rsvp a:hover {
     background-color: #f78b36;
 }
 
