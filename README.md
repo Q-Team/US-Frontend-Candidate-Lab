@@ -34,8 +34,5 @@ Submit a pull request when you are finished and satisfied with your work.
 
 # Notes
 
-Use this area to communicate any thought processes, ideas, or challenges you encountered.
-
-*
-*
-*
+* In the script tags we've added the type attribute with the value set to corrsponding ('text/javascript' in this case). Although not strictly necessary its better to follow the standard for better cross-platform compatibility.
+* We've added some of the design elements in the PSD to the background. Only 2 images were added for lack of time, but the idea would have been to place a handful of polaroids over the wooden background.  
